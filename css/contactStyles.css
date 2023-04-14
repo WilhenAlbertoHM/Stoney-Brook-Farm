@@ -7,7 +7,7 @@ body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 .letter-image {
@@ -167,4 +167,27 @@ body {
 .letter-image:hover .shadow {
   width: 250px;
   top: 230px;
+}
+
+.info input {
+  margin-bottom: 10px;
+}
+
+.info label {
+  margin-bottom: 5px;
+}
+
+.info hr {
+  border: none;
+}
+
+.form-control {
+  height: 1.5em;
+  width: 10em;
+}
+
+.form-control-lg {
+  height: 10em;
+  width: 30em;
+  font-size: 15px;
 }
